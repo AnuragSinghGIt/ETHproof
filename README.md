@@ -7,7 +7,7 @@ the keys of the mapping are etherium addresses .the values are unsigned integers
 which are representing the token balance associated with each address.
 
 In Third step I have created a Mint function that allows new tokens to be addedto the assigned address
-.and  Parameters which i have used are _address and _ num. Increases the totalsupply by the _num and Increses 
+.and  Parameters which i have used are _address and _ num. Increases the finalsupply by the _num and Increses 
 the balance of the _address by the _num . All can access it so i had made it public.
 
 The fourth step is to create a burn function. This function will destroy a specified number of tokens from a given address,
